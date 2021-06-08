@@ -5,3 +5,6 @@ authors = ["Matthew J Perez <matt@mperez.io>"]
 edition = "2018"
 
 [dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+rss = "1.10.0"
+tokio = {version = "1.6.1", features = ["full"]}
